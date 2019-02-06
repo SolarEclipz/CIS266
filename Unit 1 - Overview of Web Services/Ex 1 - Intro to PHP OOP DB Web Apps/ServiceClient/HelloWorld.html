@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RESTful JSON-PHP Hello World Web Service Client</title>
+ </head>
+<body>
+<h2>
+Please enter your name to view Hello Message
+
+<p>
+		<form id="target">
+			Name: <input type="text" id="name" name ="name">&nbsp
+			<input type="submit" value="Submit">
+		</form>
+	</p>
+	<br />
+
+-----------------------------------------------------------------------------	
+	<br />
+
+Message returned from HelloWorld web service provider
+	<p>
+		Message: <span id="aMessage"></span>
+     </p>
+	 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+<script>
+
+$('#target').submit(function(event) {
+
+	event.preventDefault();
+	
+	var aName = $('#name').val();
+				
+	$.ajax({
+		type: 'POST',
+		url: 'http://localhost:8000/CIS266/RESTful/hello_world/ServiceProvider/HelloWorld_API.php',
+		data: 'name=' + aName, 
+		dataType: 'json',
+		encode: true
+	})
+	.done(function(data) {
+		$('#aMessage').text(data.message);
+	})
+	.fail(function() {
+		$('#aMessage').text('An error occurred. Please try again.');
+	});
+
+	});
+
+</script>
+</body>
+</html>
