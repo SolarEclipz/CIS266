@@ -1,0 +1,22 @@
+<?php
+// this displays a JSON output, testing the
+// ../serviceprovider/class_lib/product.php
+
+include('class_lib/Product.php');
+
+$product = new Product();
+
+$rCode = $product->toString();
+print("$rCode");
+
+print("<br /><br />");
+
+$product->setCode("newCode");
+$product->setDescription("new Description");
+$product->setPublisher("new Publisher");
+$product->setPrice("99.99");
+
+$rCode = $product->toString();
+print("$rCode");
+
+?>
