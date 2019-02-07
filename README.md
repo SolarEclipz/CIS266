@@ -25,5 +25,5 @@ Most of this code comes from Murach's books(Well their "databases/class" example
 2. Unit 3 + We used IBM's WebShpere.. You can run Eclipse/IntilliJ im sure.
 
 ## Ending
-- If you find any issues, please feel free to help out. I am by no means a guru when it comes to this that is why I created this repo, to help out fellow students who might be struggling 
+- If you find any issues, please feel free to help out. I am by no means a guru when it comes to this that is why I created this repo, to help out others who might be struggling.
 - Take a moment to give a star if this was helpful to you in anyway. :-D
