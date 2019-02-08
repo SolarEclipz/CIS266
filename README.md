@@ -12,7 +12,7 @@ The course is broken down into 4 units. Each unit contains 4 exercises. At the e
 
 #### So what is included?
 1. My coursework. with some information being redacted. Mainly names.
-2. Thats really it. Each units exercises, what else do you need? 
+2. Thats it really... Each units exercises, what else do you need? 
 
 ## Final Thoughts.... 
 Most of this code comes from Murach's books(Well their "databases/class" examples), as that is what the teacher based it off. However, there is NO BOOK in relation to this material. There are books covering PHP, Java, JavaScrip, jQuery, but nothing covering it as a all-in-one. 
