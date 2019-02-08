@@ -21,8 +21,8 @@ Most of this code comes from Murach's books(Well their "databases/class" example
 1. Coming Soon
 
 #### Programs used:
-1. Unit 1 - 2 I used Visual Studio Code. Normally I use Sublime Text 3, was going VSCode a shot.
-2. Unit 3 + We used IBM's WebShpere.. You can run Eclipse/IntilliJ im sure.
+1. Unit 1 - 2 I used Visual Studio Code. Normally I use Sublime Text 3, was giving VSCode a shot.
+2. Unit 3 + We used IBM's WebShpere.. You can run Eclipse/IntilliJ Ultimate I'm sure.
 
 ## Ending
 - If you find any issues, please feel free to help out. I am by no means a guru when it comes to this that is why I created this repo, to help out others who might be struggling.
