@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RESTful JSON-PHP Web Service Client</title>
+ </head>
+<body>
+<h2>
+Please enter Product name to search for in Database Emulator
+
+<p>
+		<form id="target" action="" method="post">
+			Product: <input type="text" id="boatInfo" name ="boatInfo">&nbsp
+			<input type="submit" value="Submit">
+		</form>
+	</p>
+	<br />
+
+-----------------------------------------------------------------------------	
+	<br /><br />
+
+Product information returned from Database Emulator web service:
+	<p id="info">
+		Boat Information <span id="aProduct"></span>
+		<br />
+		Boat Name: <span id="aBoatName"></span>
+		<br />
+		Boat Owner: <span id="aOwnerName"></span>
+		<br />
+		Number of Sails: <span id="aNumberOfSails"></span>
+		<br />
+		Product Price: <span id="aPrice"></span>
+	</p>
+	 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+<script>
+
+$('#target').submit(function(event) {
+
+//alert("inside JS function");
+
+	event.preventDefault();
+	
+	var aSailboat = $('#boatInfo').val();
+					
+	$.ajax({
+		type: 'POST',
+		url: 'http://localhost:8000/CIS266/students/unit1_ex4/ServiceProvider/SailboatAPI.php',
+		data: 'sailboat=' + aSailboat, 
+		dataType: 'json',
+		encode: true
+	})
+	.done(function(data) {
+		$('#aProduct').text(data.sailBoatString);
+		$('#aBoatName').text(data.boatName);
+		$('#aOwnerName').text(data.ownerName);
+		$('#aNumberOfSails').text(data.numberOfSails);
+		$('#aPrice').text(data.productPrice);
+	})
+	.fail(function() { // note #result is not used in anyway as there is no id set with 'result'
+		$('#result').text('An error occurred. Please contact your Web Service Administrator.');
+	});
+
+	});
+
+</script>
+</body>
+</html>
