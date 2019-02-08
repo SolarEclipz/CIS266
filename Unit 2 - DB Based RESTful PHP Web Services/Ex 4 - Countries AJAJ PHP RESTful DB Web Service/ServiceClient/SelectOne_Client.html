@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RESTful JSON-PHP Web Service Client</title>
+ </head>
+<body>
+<h2>
+Please enter a ID from the DB to return a row
+
+<p>
+		<form id="target" action="" method="post">
+			ID: <input type="text" id="rowID" name ="rowID">&nbsp
+			<input type="submit" value="Submit">
+		</form>
+	</p>
+	<br />
+
+-----------------------------------------------------------------------------	
+	<br /><br />
+
+Country information returned from Database Emulator web service:
+	<p id="info">
+        DB ID: <span id="aDBID"></span>
+        <br />
+		Country Name: <span id="aCountryName"></span>
+		<br />
+		Country Population: <span id="aCountryPop"></span>
+		<br />
+		One of the countries native languages: <span id="aCountryLang"></span>
+		<br />
+		One of the countries major imports: <span id="aCountryImport"></span>
+		<br />
+		One of the countries major exports: <span id="aCountryExport"></span>
+	</p>
+	 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+<script>
+
+$('#target').submit(function(event) {
+
+//alert("inside JS function");
+
+	event.preventDefault();
+	
+	var aID = $('#rowID').val();
+					
+	$.ajax({
+		type: 'POST',
+		url: '../ServiceProvider/StudentDB_API.php',
+		data: 'rowID=' + aID, // This part can be confusing. 
+    /*
+      rowID= is doing one of a few things. First, rowID is the textbox's ID. This then gets passed
+      to ../serviceprovider/studentdb_api.php
+      From there the studentdb_api is REQUESTING 'rowID', which inputs what ever the person put in to search 
+      in the DB for that country. This can be seen when debugging studentdb_api.php you get a return value
+      of studentdb_api.php?rowID=
+      
+      So appending + aID, which is equal to the textsboxs #rowID, (in this case its finding the ID of a row) it returns
+      studentdb_api.php?rowID=1
+      
+      This returns the first row from the tableName you have selected it to use from the studentDB. 
+      
+      ***NOTE**** 
+      If rowID is not set corrently, (which is super easy to do and I actually failed u2x3 because I was lost) 
+      nothing will display on the page. This can be very time consuming trying to track down WHY nothing is displaying.
+      
+      If your results are not displaying, its more than likley there is an issue with the data: field (in my case rowID)
+      
+      As you will notice rowID is actually being used in three different files for this exercise to make everything work properly. 
+      Because of this, again, is why i spent so much time in u2e3 with nothing to show for it. 
+    
+    */
+		dataType: 'json',
+		encode: true
+	})
+	.done(function(data) {
+        $('#aDBID').text(data.id);
+		$('#aCountryX').text(data.X); // first col. first frow entry for countryTable. where x = col name
+		$('#aCountryXX).text(data.XX);  // second col. first frow entry for countryTable
+		$('#aCountryXXX').text(data.XXX); // third col. first frow entry for countryTable
+		$('#aCountryXXXX').text(data.XXXX); // fourth col. first frow entry for countryTable
+		$('#aCountryXXXX').text(data.XXXXX);  // fifth col. first frow entry for countryTable
+	})
+  // this doesn't do anything as to ID in the html as been set for #result.
+	.fail(function() { 
+		$('#result').text('An error occurred. Please contact your Web Service Administrator.');
+	});
+
+	});
+
+</script>
+</body>
+</html>
