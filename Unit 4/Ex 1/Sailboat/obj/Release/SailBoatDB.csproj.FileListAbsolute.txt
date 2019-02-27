@@ -1,0 +1,22 @@
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\bin\Release\SailBoatDB.exe.config
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\bin\Release\SailBoatDB.exe
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\bin\Release\SailBoatDB.pdb
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\obj\Release\ProductMaintenance.frmNewBoat.resources
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\obj\Release\ProductMaintenance.frmBoatMain.resources
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.Properties.Resources.resources
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.csproj.GenerateResource.cache
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.csproj.CoreCompileInputs.cache
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.exe
+F:\_School\Semester 2 (Spring 2018)\CIS 131 30C - C# Programming\CH12 - How to create and use classes\ch 12 Walkthru\ArnN_Ch12ProductMaintenance\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.pdb
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\bin\Release\SailBoatDB.exe.config
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\bin\Release\SailBoatDB.xml
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\bin\Release\SailBoatDB.exe
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\bin\Release\SailBoatDB.pdb
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.csprojAssemblyReference.cache
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\ProductMaintenance.frmNewBoat.resources
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\ProductMaintenance.frmBoatMain.resources
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.Properties.Resources.resources
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.csproj.GenerateResource.cache
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.csproj.CoreCompileInputs.cache
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.exe
+F:\_School\Semester 5 (Spring 2019)\CIS 266 - Web Services\Unit 4\ArnN_Unit4_Ex1A\ProductMaintenance\ProductMaintenance\obj\Release\SailBoatDB.pdb

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+    <Product>
+        <Code>33</Code>
+        <OwnerName>Nick *********/OwnerName>
+        <NumOfSails>1</NumOfSails>
+        <Price>11000.00</Price>
+    </Product>
+    <Product>
+        <Code>26</Code>
+        <OwnerName>Laura *********</OwnerName>
+        <NumOfSails>2</NumOfSails>
+        <Price>23000.00</Price>
+    </Product>
+    <Product>
+        <Code>22</Code>
+        <OwnerName>David *********</OwnerName>
+        <NumOfSails>2</NumOfSails>
+        <Price>24500.00</Price>
+    </Product>
+    <Product>
+        <Code>27</Code>
+        <OwnerName>Jason *********</OwnerName>
+        <NumOfSails>1</NumOfSails>
+        <Price>10725.00</Price>
+    </Product>
+    <Product>
+        <Code>27</Code>
+        <OwnerName>Travis *********</OwnerName>
+        <NumOfSails>2</NumOfSails>
+        <Price>25000</Price>
+    </Product>
+</Products>
